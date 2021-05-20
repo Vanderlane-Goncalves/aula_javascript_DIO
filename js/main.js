@@ -1,6 +1,34 @@
-var fruta = [{nome:"maça", cor:"vermalha"},{nome:"Uva",cor:"Roxa"}];
-console.log(fruta[1].nome);
+
+var d = new Date();
+alert(d.getMonth()+1);
+
 /*
+var count;
+for (count=0; count<=5; count++){
+    alert(count)
+};
+*/
+
+/*
+var count = 0;
+while (count <= 5){
+    console.log(count);
+    alert(count);
+    count ++;
+};
+*/
+/*
+var idade = prompt("Qual sua idade");
+if(idade >= 18){
+    alert("maior de idade");
+}else{
+    alert("menor de idade");
+};
+*/
+
+/*var fruta = [{nome:"maça", cor:"vermalha"},{nome:"Uva",cor:"Roxa"}];
+console.log(fruta[1].nome);
+
 var fruta = {nome:"maça", cor:"vermalha"};
 console.log(fruta.nome);
 */
