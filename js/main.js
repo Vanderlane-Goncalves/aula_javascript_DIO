@@ -1,4 +1,23 @@
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>"
+    //console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    window.open("https://globallabs.academy/");// em outra janela
+    //window.location.href = "https://globallabs.academy/" //na mesma página
+}
+
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+}
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+}
+    
+
+/*
 function soma(n1,n2){
     return n1 + n2;
 };
@@ -15,7 +34,7 @@ function validaIdade(idade){
 
 var idade = prompt("Qual é sua idade");
 console.log(validaIdade(idade));
-
+*/
 
 /*
 var d = new Date();
